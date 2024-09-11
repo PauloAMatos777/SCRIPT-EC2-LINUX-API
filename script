@@ -1,0 +1,9 @@
+#! /bin/bash
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+wget https://objectstorage.us-ashburn-1.oraclecloud.com ======> URL ONDE ESTÁ OS ARQUIVOS DA API
+unzip webserverFiles.zip
+amazon-linux-entras install epel -y
+yum install stress -y
